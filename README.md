@@ -23,12 +23,35 @@ I used Blynk API for implementing IOT as it is easy to use and set up and becaus
 Some of the fields have been left blank for you to enter yourself such as:
 ```
 #define BLYNK_TEMPLATE_ID ""
-
 #define BLYNK_DEVICE_NAME ""
 #define BLYNK_AUTH_TOKEN ""
 ```
 as well as:
 ```
-> char ssid[] = "";
+char ssid[] = "";
 char pass[] = "";
 ```
+### How to use Blynk and Run the Code
+To use Blynk, head over to blynk.cloud and Sign Up.\
+Create a template, add a new device, customize the dashboard and copy/paste the firmware configuration to the field mentioned above.\
+Enter your Wi-Fi credentials as well in the fields mentioned above.\
+Before running the code install important libraries: ESP8266 and Blynk.\
+Select the right port in the IDE and Upload the code.\
+And Voila! You're done.
+
+### Sample Results
+![Results](https://user-images.githubusercontent.com/53350641/188304207-bb1419a8-5a38-482d-92a6-19fd2416433a.jpg)\
+\
+![Results-2](https://user-images.githubusercontent.com/53350641/188304043-1b0b9650-514f-4c48-941f-ff578e80d526.png)
+
+
+
+## Credits
+All credit goes to my lecturers and family members who helped me in this project.\
+Documentation provided by Blynk and information available on Arduino Projects Hub also really helped in understanding the working of each hardware device.\
+https://docs.blynk.io/en/getting-started/what-do-i-need-to-blynk \
+https://create.arduino.cc/projecthub \
+\
+Thank You.
+
+
