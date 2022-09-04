@@ -14,15 +14,15 @@ Implementing an IoT solution for this problem can bring many benefits to the env
 3x Male to Female Jumper Cables\
 1x Micro USB to USB Cable
 ### Circuit Diagram
-add image
+![circuit diagram](https://user-images.githubusercontent.com/53350641/188302836-5d338795-118f-4552-a9f8-44f6dbd9348e.png)
 ### Flow Diagram
-add image
+![Flow Diagram](https://user-images.githubusercontent.com/53350641/188302937-c1b2d4f0-aeb1-4931-9cd1-831b33ed0748.png)
 
 ## Software and Code
 I used Blynk API for implementing IOT as it is easy to use and set up and because I am very well-versed in C++, I utilized the Arduino IDE.
 Some of the fields have been left blank for you to enter yourself such as:
 ```
-#define BLYNK_TEMPLATE_ID ""![circuit diagram](https://user-images.githubusercontent.com/53350641/188302836-5d338795-118f-4552-a9f8-44f6dbd9348e.png)
+#define BLYNK_TEMPLATE_ID ""
 
 #define BLYNK_DEVICE_NAME ""
 #define BLYNK_AUTH_TOKEN ""
